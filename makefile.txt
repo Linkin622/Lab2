@@ -1,0 +1,26 @@
+EXECUTABLES1=launch
+SRC1=launch.c
+OBJ1=launch.o
+
+EXECUTABLES2=tube
+SRC2=tube.c
+OBJ2=tube.o
+
+CC=gcc
+CFLAGS=-g
+
+
+all: $(EXECUTABLES1) $(EXECUTABLES2)
+
+
+$(EXECUTABLES1): $(SRC1)
+	$(CC) $(CFLAGS) -c $(SRC1)
+	$(CC) $(CFLAGS) -o $@ $(OBJ1)
+
+$(EXECUTABLES2): $(SRC2)
+	$(CC) $(CFLAGS) -c $(SRC2)
+	$(CC) $(CFLAGS) -o $@ $(OBJ2)
+
+clean:
+	rm -f $(EXECUTABLES1) $(OBJ1) *
+	rm -f $(EXECUTABLES2) $(OBJ2) *~

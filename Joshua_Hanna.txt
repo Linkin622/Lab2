@@ -1,0 +1,21 @@
+https://github.com/Linkin622/Lab1
+joshua.hanna.394@my.csun.edu 105506815
+
+Lab 2
+README:
+Name:		Joshua Hanna
+Class:		Comp 322
+
+3/10/20
+-I used a Header file to put functions I create.  
+
+3/11/20
+-launch.c works well and there are no erros
+-tube.c is giving me errors and im trying to understand why
+
+3/12/20
+-still having problems with tube.c, i believe im not understanding the assignment correctly.
+-asked a couple of classmates they seemed confused too
+
+3/14/20
+-Still having problems with tube.c not sure what else to do, might have to just turn in assignment.
